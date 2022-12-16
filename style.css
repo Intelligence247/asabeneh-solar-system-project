@@ -1,0 +1,72 @@
+body {
+    background-image: url(./media/galaxy.gif);
+}
+
+h1 {
+    color: white;
+    width: max-content;
+    margin: auto;
+}
+
+header {
+    width: max-content;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 50rem;
+    height: max-content;
+    padding: 2.5rem 2rem;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+h2 {
+    color: white;
+    width: max-content;
+    margin: auto;
+
+}
+
+aside {
+    display: flex;
+    width: max-content;
+    margin: auto;
+    flex-direction: column;
+    gap: 1rem;
+    height: max-content;
+    background-color: rgba(255, 255, 255, 0.2);
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#ans {
+    width: max-content;
+    height: max-content;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    margin: auto;
+
+}
+
+#warn {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 1.1rem;
+}
+
+header {
+    display: inline-block;
+    display: flex;
+    gap: 1rem;
+}
